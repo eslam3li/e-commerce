@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.jets.ecommerce.service.exceptions;
+
+
+@Deprecated
+public class UncompletedOperationException extends Exception {
+
+    public UncompletedOperationException(String message) {
+        super(message);
+    }
+
+    public UncompletedOperationException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public UncompletedOperationException(Throwable cause) {
+        super(cause);
+    }
+
+}
